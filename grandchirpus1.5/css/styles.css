@@ -1,0 +1,168 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    height: 100px;
+    background-color: #f9fafc;
+}
+h1 {
+    font-size: 16px;
+    padding-bottom: 3%;
+}
+h4 {
+    color: #000;
+    padding-left: 1%;
+    padding-top: 5%;
+    font-size: 30px;
+    }
+.button {
+    background-color: #000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    width: 83%;
+    
+}
+.scrolldown {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 83%;
+    padding: 15px 32px;
+}
+li {
+    list-style-type: none;
+    text-decoration: none;
+    position: relative;
+
+}
+ul {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0%;
+}
+a {
+    text-decoration: none;
+    color: #69696a;
+}
+p {
+    border-left: 1px solid black;
+    padding-left: 10px;
+}
+
+@media only screen and (min-width: 480px) {
+@import url("https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans");
+html {
+    font-family: 'Open Sans', sans-serif;
+    height: 100px;
+    background-color: #f9fafc;
+}
+ul {
+    list-style-type: none;
+    float: right;
+    margin-right: 20px;
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    color: #69696a;
+}
+p {
+    margin-top: 15%;
+    margin-left: 5%;
+    text-align: left;
+    color: #88898b;
+    border-left: 1px solid black;
+    padding-left: 10px;
+    margin-bottom: 500px;
+}
+h1 {
+    font-size: 20px;
+    display: inline-block;
+    float: left;
+    text-align: left;
+}
+h4 {
+    font-size: 30px;
+    padding-top: 35%;
+    margin-top: 22%;
+    padding-left: 1%; 
+    position: static;
+    text-align: left;
+} 
+.container {
+    width: 500px;
+    height: 200px;
+}
+.orange {
+    height: 150px;
+    width: 150px;
+    background-color: rgba(247, 193, 162, 0.7);
+    border-radius: 50%;
+    display: inline-block;
+    float: right;
+    position: relative;
+    right: 10%;
+    bottom: 0px;
+    top: 55px;
+   
+  }
+.purple {
+    height: 110px;
+    width: 110px;
+    background-color: rgba(207, 130, 213, 0.6);
+    border-radius: 50%;
+    bottom: 15px;
+    display: inline-block;
+    position: relative;
+    float: right;
+  }
+.pink {
+    height: 275px;
+    width: 275px;
+    background-color: rgba(247, 136, 167, 0.6);
+    border-radius: 50%;
+    display: inline-block;
+    left: 950px;
+    bottom: 20px;
+    position: relative;
+  }
+  .scrolldown {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+   padding: 15px 32px;
+  }
+      .button {
+        background-color: #000;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 12px;
+      }
+}
